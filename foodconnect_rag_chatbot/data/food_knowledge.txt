@@ -1,198 +1,528 @@
-Welcome to the Food Connect RAG Chatbot!
+Q: How can I donate food?
+A: Sign up as a donor on FoodConnect and schedule a pickup.
 
-This Food Knowledge Database contains useful information about food, nutrition, culinary practices, and FoodConnect app features. It is designed to help the chatbot provide accurate and helpful answers to your questions.
+Q: What kind of food can I donate?
+A: Freshly cooked, surplus food, and packaged food within expiry dates.
 
----
+Q: Can home-cooked food be donated?
+A: Yes, if it meets our safety and hygiene guidelines.
 
-1. **Fruits:**
-   - Apples: Rich in fiber and vitamin C.
-   - Bananas: High in potassium and great for energy.
-   - Oranges: Excellent source of vitamin C and hydration.
+Q: Can individuals donate leftover food from parties?
+A: Absolutely! Register and schedule a pickup for surplus food.
 
-2. **Vegetables:**
-   - Spinach: Packed with iron and vitamins A and K.
-   - Carrots: High in beta-carotene, good for vision.
-   - Broccoli: Contains antioxidants and is a good source of fiber.
+Q: What if I have food for immediate donation?
+A: Use the “Quick Pickup” option on FoodConnect.
 
-3. **Grains:**
-   - Quinoa: A complete protein and gluten-free grain.
-   - Brown Rice: Whole grain that is high in fiber.
-   - Oats: Great for breakfast and heart health.
+Q: How much food is required for a donation?
+A: There’s no strict minimum, but more food helps more people.
 
-4. **Proteins:**
-   - Chicken: Lean source of protein.
-   - Lentils: High in protein and fiber, great for vegetarians.
-   - Salmon: Rich in omega-3 fatty acids.
+Q: Is there any cost for food donors?
+A: No, FoodConnect is a free service.
 
-5. **Dairy:**
-   - Milk: Good source of calcium and vitamin D.
-   - Yogurt: Contains probiotics for gut health.
-   - Cheese: High in calcium but should be consumed in moderation.
+Q: How do NGOs register?
+A: NGOs can register online and undergo verification for authenticity.
 
----
+Q: What documents are needed for NGO registration?
+A: Valid registration certificates, identity proofs, and authorization letters.
 
-6. **Food Storage & Safety Tips:**
-   - Leftover soups and stews should be cooled and refrigerated within 2 hours; safe for 3-4 days.
-   - Store milk on a fridge shelf, not the door, to maintain a consistent temperature.
-   - Bread is best stored in a cool, dry place for up to 5 days or in the freezer for longer.
-   - Cooked pasta can be refrigerated in airtight containers for 3-5 days.
-   - Hard cheeses like cheddar last 3–4 weeks if properly wrapped.
-   - Wash fresh berries only before eating to prevent mold.
-   - Leftover pizza can be stored in the fridge for up to 4 days.
-   - Unopened deli meats last 2 weeks; use opened packs within 3–5 days.
-   - Thaw frozen meat in the refrigerator overnight — never on the counter.
-   - Use a food thermometer to check meat temperatures:
-     - Chicken: 165°F (74°C)
-     - Ground beef: 160°F (71°C)
-     - Fish: 145°F (63°C)
-   - Refrigerated dough products should be used before the “use by” date.
-   - Avocados ripen best at room temperature; refrigerate after ripening.
-   - Store nuts in the fridge or freezer to prevent spoilage.
-   - Mushrooms last longer stored in paper bags in the fridge.
-   - Opened sauces (tomato, BBQ) should be used within 1–2 weeks refrigerated.
+Q: How can NGOs request food?
+A: NGOs can request food through their FoodConnect dashboard.
 
----
+Q: Can NGOs request specific types of food?
+A: Yes, NGOs can specify their requirements when making a request.
 
-**Frequently Asked Questions**
+Q: How is food prioritized for delivery to NGOs?
+A: Based on availability, urgency, and proximity to donors.
 
-Q: How long can I keep cooked rice in the fridge?  
-A: Store cooked rice in the fridge within 2 hours of cooking. It is safe to eat for up to 4 days if kept in an airtight container.
+Q: How do you ensure food is safe?
+A: Strict checks at pickup and delivery points, trained volunteers, and temperature-controlled transportation.
 
-Q: Can I freeze cooked vegetables?  
-A: Yes, most cooked vegetables can be frozen for up to 3 months using airtight containers or freezer bags.
+Q: What happens if food is spoiled?
+A: Spoiled food is rejected and not delivered to NGOs.
 
-Q: What is the safe temperature for storing raw meat?  
-A: Raw meat should be stored at or below 40°F (4°C), preferably on the bottom shelf to avoid cross-contamination.
+Q: Can I get updates about food quality?
+A: Yes, you can view food inspection updates in your dashboard.
 
-Q: How should I store eggs?  
-A: Keep eggs in their original carton on a middle fridge shelf for stable temperature; avoid the fridge door.
+Q: Who picks up the food?
+A: Trained volunteers and partner logistics providers.
 
-Q: How can I prevent foodborne illness?  
-A: Store foods properly, avoid cross-contamination, cook meats to safe internal temperatures, and reheat leftovers to 165°F (74°C).
+Q: Can I choose a pickup time?
+A: Yes, during scheduling, you can select a convenient time slot.
 
-Q: What is FoodConnect?  
-A: FoodConnect is a web app that helps users manage leftover ingredients, learn food safety, and reduce food waste.
+Q: How long does delivery take?
+A: Usually within 1–2 hours of pickup, depending on traffic and location.
 
-Q: How do I add ingredients to my pantry?  
-A: Go to the "Pantry" section, click "Add Ingredient," and enter details like name, quantity, and expiry date.
+Q: How do I know my food was delivered?
+A: You’ll receive real-time updates and delivery confirmation.
 
-Q: Can I search recipes based on my leftovers?  
-A: Yes! In the “Recipes” tab, enter your available ingredients to get recipe suggestions.
+Q: Can I cancel a pickup?
+A: Yes, through your dashboard, but we request advance notice.
 
-Q: Does FoodConnect send expiry notifications?  
-A: Yes, the app sends alerts based on expiry dates entered for your pantry items.
+Q: What is FoodConnect?
+A: A platform connecting food donors with NGOs to reduce food waste and feed the needy.
 
-Q: How long does raw chicken last in the fridge?  
-A: Raw chicken should be used within 1–2 days of refrigeration, kept below 40°F (4°C).
+Q: Who can use FoodConnect?
+A: Individuals, restaurants, food businesses, NGOs, and volunteers.
 
-Q: How long do fresh herbs last?  
-A: Herbs like parsley and cilantro last 5–7 days if wrapped in damp paper towels and stored in a container.
+Q: Is FoodConnect available across India?
+A: We’re expanding rapidly. Check availability in your city.
 
-Q: Can I store cut vegetables ahead of time?  
-A: Yes, store them in airtight containers; for leafy greens, add a paper towel to absorb moisture.
+Q: How do I contact FoodConnect support?
+A: Through our website’s “Contact Us” page or support email.
 
-Q: Is canned food safe past the expiry date?  
-A: Usually safe if the can is intact, but best quality is within 12 months.
+Q: Is my information secure?
+A: Yes, we prioritize data security and confidentiality.
 
-Q: How long do leftovers last?  
-A: Generally, 3–4 days refrigerated in airtight containers; always reheat thoroughly.
+Q: Can I schedule regular pickups?
+A: Yes, you can set recurring pickups for convenience.
 
-Q: Is FoodConnect free?  
-A: Yes, FoodConnect is currently free. Premium features may be added later.
+Q: How do I track my past donations?
+A: View your donation history in the dashboard.
 
-Q: Can I share my pantry with family?  
-A: Not yet; shared pantry features are in development.
+Q: Does FoodConnect offer volunteer opportunities?
+A: Yes, join our team and help with pickups and deliveries.
 
-Q: How do I report bugs or issues?  
-A: Use the "Feedback" option in the settings menu.
+Q: How can my restaurant become a regular partner?
+A: Contact us via email or through the registration page for partnerships.
 
-Q: Is my data secure?  
-A: Yes, we follow best practices to protect your data and do not share it with third parties.
+Q: Does FoodConnect follow FSSAI guidelines?
+A: Yes, we adhere to all food safety and hygiene regulations.
 
-Q: Can I use FoodConnect offline?  
-A: Limited offline features are available; full functionality requires internet access.
+Q: Is donor liability covered?
+A: We work with NGOs and volunteers to ensure proper food handling, minimizing donor liability.
 
----
+Q: What cities does FoodConnect currently serve?
+A: We’re available in major cities like Mumbai, Delhi, Bengaluru, and expanding. Check our website for updates.
 
-7. **Meal Planning Tips:**
-   - Plan weekly meals to avoid excess buying and reduce waste.
-   - Use a shopping list based on recipes.
-   - Batch cook and freeze meals to save time.
-   - Include varied food groups for balanced nutrition.
+Q: How do I know if my city is supported?
+A: Enter your city on the homepage to check availability.
 
-8. **Nutrition Tips:**
-   - Eat at least 5 servings of fruits and vegetables daily.
-   - Drink 8 cups of water daily.
-   - Limit added sugars and processed foods.
-   - Prefer whole grains over refined.
-   - Include healthy fats like olive oil, nuts, and avocado.
+Q: Can I donate packaged snacks and beverages?
+A: Yes, if within expiry dates and properly sealed.
 
-9. **Sustainability & Food Waste Reduction:**
-   - Use vegetable scraps to make broth.
-   - Store food properly to extend shelf life.
-   - Compost scraps instead of trashing them.
-   - Repurpose leftovers creatively.
-   - Buy "ugly" produce to reduce waste.
+Q: Do you accept raw ingredients like vegetables?
+A: Not at this time. We focus on ready-to-eat or surplus prepared food.
 
-10. **Common Cooking Questions:**
+Q: Hi / Hello / Good morning / What's up?
+A: Hello! How can I assist you with FoodConnect today?
 
-Q: How do I prevent pasta from sticking?  
-A: Use plenty of boiling water, stir occasionally, and avoid adding oil to the water.
+Q: Bye / Goodbye / Thanks
+A: Goodbye! Thanks for supporting FoodConnect.
 
-Q: How to soften butter quickly?  
-A: Cut into small cubes and let sit at room temperature 15-30 minutes, or microwave briefly.
+Q: I forgot my login details / I can't access my account / How do I reset my password?
+A: Use the 'Forgot Password' option or contact support for assistance.
 
-Q: How can I tell if an avocado is ripe?  
-A: It should yield slightly when pressed, but not feel mushy.
+Q: Can I use FoodConnect on mobile? / Do you have an app? / How do I report an issue?
+A: Yes, our platform works on mobile, and we are working on an app. You can report issues via your dashboard or contact support.
 
-Q: What's the difference between baking powder and baking soda?  
-A: Baking soda needs acid to activate; baking powder contains acid and base and activates with moisture.
 
-Q: How do I keep herbs fresh longer?  
-A: Trim stems, place in water like flowers, cover loosely with plastic, and refrigerate.
+Q: How can I donate food? / Where can I donate food? / I want to donate food.
+A: You can register as a donor and schedule a pickup via the FoodConnect platform.
 
----
+Q: What types of food can I donate? / Are there any restrictions? / Can I donate leftover food?
+A: You can donate freshly prepared or packaged food. We accept vegetarian and non-vegetarian food, provided it's safe to eat.
 
-11. **Dietary Preferences & Restrictions:**
+Q: Can I donate canned food / bakery items / baby food / beverages / frozen food?
+A: Yes, provided the food is sealed, within expiry, and meets our safety guidelines.
 
-Q: Does FoodConnect support vegetarian or vegan options?  
-A: Yes, you can filter recipes by vegetarian, vegan, gluten-free, and other diets.
+Q: How is the food transported? / Who handles the packaging? / Can I specify handling instructions?
+A: Our volunteers and partners handle transport and packaging. You can specify handling instructions when scheduling a pickup.
 
-Q: Can I track allergens?  
-A: Yes, you can mark allergens in your pantry to avoid related recipes.
+Food Pickup & Scheduling
+Q: How do I schedule a food pickup? / When will my food be picked up?
+A: You can schedule a pickup on our platform. We'll confirm the pickup time with you.
 
----
+Q: How far in advance should I schedule a pickup? / What if I need to change the pickup time?
+A: Ideally, schedule 1–2 hours in advance. You can also reschedule through your dashboard.
 
-12. **User Account & Settings:**
+Tracking & Transparency
+Q: How can I track my donation? / Where does my donated food go?
+A: You can track your donation via your FoodConnect dashboard. We also share impact stories!
 
-Q: How do I reset my password?  
-A: On the login page, click "Forgot Password" and follow the instructions sent to your email.
+Q: Can I track where my food goes? / How do I know my donation made a difference?
+A: You can track your donation and see updates in your dashboard. We also share stories and photos.
 
-Q: Can I customize notifications?  
-A: Yes, in "Settings," choose which alerts you want to receive.
+Food Safety
+Q: How do you ensure food safety? / What happens to the food after donation?
+A: Our volunteers check food quality, and NGOs distribute it to those in need, following strict safety protocols.
 
-Q: Is there a mobile app?  
-A: A FoodConnect mobile app is in development for iOS and Android.
+Volunteering
+Q: How can I volunteer for FoodConnect? / I want to volunteer.
+A: You can sign up as a volunteer through our website. We'll guide you through the process.
 
----
+Q: What are the requirements to volunteer? / Do I need any qualifications?
+A: Volunteers should be at least 18 years old and passionate about reducing food waste. No specific qualifications are required.
 
-13. **Support & Community:**
+Q: What roles are available for volunteers? / How can I help?
+A: Volunteers can assist in food collection, distribution, organizing events, and spreading awareness.
 
-Q: How do I contact support?  
-A: Use the "Help" section in the app or email support@foodconnect.com.
+Q: How much time do I need to commit as a volunteer? / Is there a minimum time requirement?
+A: We appreciate any time you can contribute. There's no strict minimum; even a few hours a week can make a difference.
 
-Q: Can I suggest features?  
-A: Yes, via the "Feedback" option in the app or website.
+Q: Is there any training for volunteers? / Do volunteers receive training?
+A: Yes, we provide orientation sessions and necessary training to ensure volunteers are well-prepared.
 
-Q: Is there a community forum?  
-A: A community forum will launch soon for sharing recipes and tips.
+Q: Are there any events for volunteers? / How can I participate in volunteer events?
+A: We regularly organize events and drives. Stay updated through our website and newsletters.
 
----
+Q: How can I provide feedback as a volunteer? / Where can volunteers share their experiences?
+A: We value your feedback. Please use the feedback form on our website or contact our volunteer coordinator.
 
-Feel free to ask the chatbot any questions related to food or FoodConnect — it’s here to help!
+Programs & Special Initiatives
+Q: Do you organize food donation drives? / How can my company sponsor FoodConnect? / Do you offer corporate volunteering?
+A: Yes! Contact us to participate in food drives, sponsorships, or corporate volunteering opportunities.
 
-Q: who is the creator ? 
-A: The_destroyer
+Legal & Location
+Q: Do I need to sign any agreement? / Is FoodConnect liable if something happens to the food? / Are there legal restrictions on food donations?
+A: Donors accept our terms during registration. We follow FSSAI and local regulations to ensure safe and legal donations.
 
-Q: who's name shouldnt be added in the research paper ? 
-A: PRop madhumati pol
+Q: Can I donate from my office cafeteria? / What if my city isn't covered?
+A: Yes, you can schedule pickups from your office. If your city isn't covered yet, please register interest—we're expanding!
+
+Feedback
+Q: How can I give feedback? / Can I suggest a feature? / I have a complaint.
+A: Please use the feedback form or contact us directly. We value your input!
+
+
+Q: How can I donate food?
+A: You can register as a donor and schedule a pickup via the FoodConnect platform.
+
+Q: Where can I donate food?
+A: You can register as a donor and schedule a pickup via the FoodConnect platform.
+
+Q: I want to donate food. What should I do?
+A: Sign up as a donor on FoodConnect and schedule a pickup.
+
+Q: What kind of food can I donate?
+A: Freshly cooked, surplus food, and packaged food within expiry dates.
+
+Q: Are there any restrictions on food donations?
+A: You can donate freshly prepared or packaged food. We accept vegetarian and non-vegetarian food, provided it's safe to eat.
+
+Q: Can I donate leftover food from parties?
+A: Absolutely! Register and schedule a pickup for surplus food.
+
+Q: Can I donate home-cooked food?
+A: Yes, if it meets our safety and hygiene guidelines.
+
+Q: Can I donate canned food or beverages?
+A: Yes, provided the food is sealed, within expiry, and meets our safety guidelines.
+
+Q: Do you accept raw ingredients like vegetables?
+A: Not at this time. We focus on ready-to-eat or surplus prepared food.
+
+Q: What if I have food for immediate donation?
+A: Use the “Quick Pickup” option on FoodConnect.
+
+Q: How much food is required for a donation?
+A: There’s no strict minimum, but more food helps more people.
+
+Q: How do I schedule a food pickup?
+A: You can schedule a pickup on our platform. We'll confirm the pickup time with you.
+
+Q: Can I choose a pickup time?
+A: Yes, during scheduling, you can select a convenient time slot.
+
+Q: How far in advance should I schedule a pickup?
+A: Ideally, schedule 1–2 hours in advance.
+
+Q: Can I reschedule or cancel a pickup?
+A: Yes, through your dashboard, but we request advance notice.
+
+Q: How long does delivery take?
+A: Usually within 1–2 hours of pickup, depending on traffic and location.
+
+Q: Who picks up the food?
+A: Trained volunteers and partner logistics providers.
+
+Q: Is there any cost for food donors?
+A: No, FoodConnect is a free service.
+
+Q: How do you ensure food is safe?
+A: Strict checks at pickup and delivery points, trained volunteers, and temperature-controlled transportation.
+
+Q: What happens if food is spoiled?
+A: Spoiled food is rejected and not delivered to NGOs.
+
+Q: Can I get updates about food quality?
+A: Yes, you can view food inspection updates in your dashboard.
+
+Q: How can I track my donation?
+A: You can track your donation via your FoodConnect dashboard.
+
+Q: Where does my donated food go?
+A: NGOs distribute the food to those in need, and you can view updates in your dashboard.
+
+Q: How is food prioritized for delivery to NGOs?
+A: Based on availability, urgency, and proximity to donors.
+
+Q: How do NGOs register on FoodConnect?
+A: NGOs can register online and undergo verification for authenticity.
+
+Q: What documents are needed for NGO registration?
+A: Valid registration certificates, identity proofs, and authorization letters.
+
+Q: How can NGOs request food?
+A: NGOs can request food through their FoodConnect dashboard.
+
+Q: Can NGOs request specific types of food?
+A: Yes, NGOs can specify their requirements when making a request.
+
+Q: What is FoodConnect?
+A: A platform connecting food donors with NGOs to reduce food waste and feed the needy.
+
+Q: Who can use FoodConnect?
+A: Individuals, restaurants, food businesses, NGOs, and volunteers.
+
+Q: Is FoodConnect available across India?
+A: We’re expanding rapidly. Check availability in your city.
+
+Q: How do I know if my city is supported?
+A: Enter your city on the homepage to check availability.
+
+Q: Can I donate from my office cafeteria?
+A: Yes, you can schedule pickups from your office.
+
+Q: What if my city isn't covered?
+A: Please register interest—we're expanding!
+
+Q: How do I contact FoodConnect support?
+A: Through our website’s “Contact Us” page or support email.
+
+Q: Is my information secure?
+A: Yes, we prioritize data security and confidentiality.
+
+Q: Can I schedule regular pickups?
+A: Yes, you can set recurring pickups for convenience.
+
+Q: How do I track my past donations?
+A: View your donation history in the dashboard.
+
+Q: Does FoodConnect offer volunteer opportunities?
+A: Yes, join our team and help with pickups and deliveries.
+
+Q: How can I volunteer for FoodConnect?
+A: You can sign up as a volunteer through our website. We'll guide you through the process.
+
+Q: How can my restaurant become a regular partner?
+A: Contact us via email or through the registration page for partnerships.
+
+Q: Does FoodConnect follow FSSAI guidelines?
+A: Yes, we adhere to all food safety and hygiene regulations.
+
+Q: Is donor liability covered?
+A: We work with NGOs and volunteers to ensure proper food handling, minimizing donor liability.
+
+Q: Do I need to sign any agreement?
+A: Donors accept our terms during registration.
+
+Q: Are there legal restrictions on food donations?
+A: We follow FSSAI and local regulations to ensure safe and legal donations.
+
+Q: How is the food transported?
+A: Our volunteers and partners handle transport and packaging.
+
+Q: Who handles the packaging?
+A: Our volunteers and logistics partners.
+
+Q: Can I specify handling instructions?
+A: Yes, you can specify handling instructions when scheduling a pickup.
+
+Q: Do you organize food donation drives?
+A: Yes! Contact us to participate in food drives, sponsorships, or corporate volunteering.
+
+Q: How can my company sponsor FoodConnect?
+A: Contact us to explore sponsorship and CSR opportunities.
+
+Q: Do you offer corporate volunteering?
+A: Yes, we offer corporate volunteering programs. Reach out to get involved.
+
+Q: Can I use FoodConnect on mobile?
+A: Yes, our platform works on mobile, and we are working on an app.
+
+Q: Do you have an app?
+A: We are working on an app. In the meantime, our platform is mobile-friendly.
+
+Q: How do I report an issue?
+A: You can report issues via your dashboard or contact support.
+
+Q: I forgot my login details. What should I do?
+A: Use the 'Forgot Password' option or contact support for assistance.
+
+Q: I can’t access my account. What should I do?
+A: Contact support or reset your password using the ‘Forgot Password’ option.
+
+Q: How do I reset my password?
+A: Use the ‘Forgot Password’ feature on the login page.
+
+Q: How can I give feedback?
+A: Please use the feedback form or contact us directly. We value your input!
+
+Q: Can I suggest a feature?
+A: Yes, we welcome suggestions through our feedback channels.
+
+Q: I have a complaint. What should I do?
+A: Please contact us directly or use the feedback form. We’ll do our best to assist.
+
+Q: how is the user data secure ?
+A: FoodConnect uses secure authentication and stores sensitive information in an encrypted format in the database.
+
+
+ Q: How do I start donating food?
+A: Register as a donor on our platform, complete your profile, and schedule your first pickup.
+
+Q: What's the easiest way to donate leftovers?
+A: Use our Quick Pickup feature for immediate collection of surplus food.
+
+Q: Can I donate from my home kitchen?
+A: Yes, home-cooked meals are welcome if prepared following our hygiene guidelines.
+
+Q: What types of packaged food can I donate?
+A: We accept commercially packaged foods with intact seals and at least 2 weeks until expiry.
+
+Q: How much notice is needed for pickup?
+A: Minimum 2 hours notice, though 24 hours is ideal for scheduling.
+
+Q: Do I need special containers?
+A: Standard food-grade containers are sufficient. We provide insulation for temperature-sensitive items.
+
+Q: Is there a weight minimum?
+A: No minimum, but donations under 2kg may be combined with others for efficiency.
+
+Q: Can apartments donate?
+A: Absolutely! Our volunteers access all residential buildings.
+
+Q: What info do I need to register?
+A: Basic contact details, address, and preferred donation types.
+
+Q: Do you take frozen food?
+A: Yes, if properly packed in insulated containers marked "Keep Frozen".
+
+🧼 Food Safety
+Q: How old can cooked food be?
+A: Maximum 4 hours at room temperature or 24 hours if refrigerated properly.
+
+Q: What if food was left out overnight?
+A: We cannot accept potentially hazardous food for safety reasons.
+
+Q: Are allergen labels required?
+A: Yes, please list major allergens for prepared foods when possible.
+
+Q: Can I donate opened packages?
+A: Only if resealed in clean containers with preparation date labeled.
+
+Q: What temperature should hot food be?
+A: Minimum 60°C (140°F) at time of pickup for safe handling.
+
+🔄 Logistics
+Q: Do you provide containers?
+A: We can supply reusable containers with 24-hour notice for large donations.
+
+Q: How are deliveries routed?
+A: AI-optimized routes based on real-time traffic and recipient locations.
+
+Q: What vehicles are used?
+A: Temperature-controlled vans, bikes with insulated boxes, and walkers for dense urban areas.
+
+Q: Can I track my donation?
+A: Real-time GPS tracking is available in your donor dashboard.
+
+
+Q: What should I do if the pickup is delayed?
+A: Contact our dispatch immediately - we maintain a 30-minute arrival window.
+
+🏥 NGO Operations
+Q: What recipient types exist?
+A: Shelters, soup kitchens, schools, and community fridges are common partners.
+
+Q: Can NGOs request dietary options?
+A: Yes, specify needs like halal, kosher, or vegetarian in requests.
+
+Q: How often can NGOs receive?
+A: Daily for high-capacity partners, weekly for smaller operations.
+
+Q: Do NGOs pay for food?
+A: Never - all donations are completely free for verified recipients.
+
+(Missing answer for question: "How do charities qualify?")
+A: Charities must register, verify documents, and pass our onboarding screening process.
+
+🌐 Special Cases
+Q: What about food recalls?
+A: Immediate quarantine and FDA-compliant disposal procedures.
+
+Q: Handling power outages?
+A: Emergency protocols activate with backup generators for cold storage.
+
+Q: Large event donations?
+A: We provide on-site staff for weddings/conferences donating 50+ meals.
+
+Q: Farm surplus options?
+A: Special harvest collection program available seasonally.
+
+Q: Pet food donations?
+A: Only through our animal shelter partners with prior arrangement.
+
+📱 Technology
+Q: What app features are available?
+A: Donation tracking, impact analytics, and tax receipt generation.
+
+Q: Is your website accessible?
+A: WCAG 2.1 AA compliant with screen reader support.
+
+Q: Do you have an API for businesses?
+A: REST API available for inventory system integration.
+
+Q: What about data privacy?
+A: Enterprise-grade encryption with optional anonymous donations.
+
+Q: Is there an offline mode?
+A: Basic scheduling available via SMS in low-connectivity areas.
+
+👥 Volunteer & Drivers
+Q: What are the driver requirements?
+A: Clean license, food handler certification, and background check.
+
+Q: What’s the age limit for volunteers?
+A: 18+ for handlers, 16+ for admin roles with guardian consent.
+
+Q: What’s the training duration?
+A: 4-hour certification course with annual refreshers.
+
+Q: Can corporate teams volunteer?
+A: Group volunteering shifts available for company CSR programs.
+
+Q: Do you offer disability accommodations?
+A: We customize roles for all abilities - just specify needs.
+
+📊 Impact Metrics
+Q: How many meals are delivered?
+A: Over 2.3 million meals distributed last quarter.
+
+Q: What are the CO2 savings?
+A: Each kg donated prevents ~3.5kg greenhouse gas emissions.
+
+Q: How much waste is reduced?
+A: Partners report 40-70% decrease in food waste.
+
+Q: Are there tax benefits?
+A: US donors receive IRS-compliant valuation receipts.
+
+Q: How fast is community growth?
+A: Serving 120+ cities with 15 new locations monthly.
+
+
+Q: Are you a global operation?
+A: Currently in 12 countries with local compliance teams.
+
+(Missing answer for question: "Language support?")
+A: We support multiple languages and adapt our app and training accordingly.
+
+Q: How is customs clearance handled?
+A: Special procedures for cross-border food aid shipments.
+
+Q: How do you ensure religious compliance?
+A: Local advisory boards ensure cultural appropriateness.
+
+Q: What about disaster response?
+A: Standing agreements with UN agencies for emergency deployment.
