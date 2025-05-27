@@ -1,3 +1,154 @@
+Q: What is Food Connect?
+A: Food Connect is a web-based application designed to connect restaurants with surplus food to NGOs that distribute food to those in need, reducing food wastage and addressing hunger.
+
+Q: What global problem does Food Connect aim to solve?
+A: It aims to tackle the massive food wastage problem and global hunger by redistributing surplus edible food efficiently.
+
+Q: How much food is wasted globally every year?
+A: Approximately 1.3 billion tons of food are wasted annually worldwide.
+
+Q: Who are the primary users of Food Connect?
+A: Restaurants (donors), NGOs (recipients), individuals, and volunteers involved in food donation and redistribution.
+
+Q: Why focus on restaurants and NGOs specifically?
+A: Restaurants generate significant surplus food, and NGOs act as effective intermediaries to distribute food to the needy.
+
+Q: What are the key technical components of Food Connect?
+A: Front-end developed with HTML, CSS, JavaScript; back-end powered by Flask and MySQL; Firebase Authentication for secure login; Google Maps API for location-based matching.
+
+Q: How does Food Connect facilitate food donation?
+A: Restaurants post surplus food details, NGOs view and select the food required, and coordinate pickups, all tracked in real-time.
+
+Q: What is the purpose of the dynamic map feature?
+A: To display real-time locations of available food donations and requests, facilitating faster and localized matches.
+
+Q: How is user authentication managed?
+A: Via Firebase Authentication, allowing secure and reliable user access, including Google account integration.
+
+Q: Are there separate interfaces for NGOs and restaurants?
+A: Yes, two dashboards provide tailored functionalities for restaurants to post food and NGOs to request it.
+
+Q: How do restaurants post their surplus food?
+A: They log in, fill in details like food type, quantity, expiry time, and post it to the platform for NGOs to view.
+
+Q: How can NGOs request food?
+A: NGOs log into their dashboard, browse food posted by nearby restaurants, request items, and arrange timely pickups.
+
+Q: Is real-time tracking available?
+A: Yes, Food Connect supports real-time tracking of donation requests and delivery statuses.
+
+Q: What alerts does the system provide?
+A: Automated food expiration reminders to minimize wastage and notifications for pickup and drop-off schedules.
+
+Q: Can volunteers assist in food delivery?
+A: While the current system focuses on restaurants and NGOs, some referenced literature indicates inclusion of volunteers in logistics.
+
+Q: How does Food Connect reduce food wastage?
+A: By redirecting edible surplus food to those in need before it becomes unusable.
+
+Q: In what way does it improve food security?
+A: It increases accessibility of surplus food to underprivileged communities through NGOs.
+
+Q: Does Food Connect promote sustainability?
+A: Yes, by reducing resource loss inherent in food production, transport, and disposal.
+
+Q: How does it enhance social responsibility?
+A: Encourages restaurants and food businesses to participate in philanthropic activities.
+
+Q: Can Food Connect contribute to reducing hunger-related deaths?
+A: By improving timely food distribution, the app aims to reduce mortality caused by hunger.
+
+Q: What database system is used?
+A: MySQL relational database to store users, donations, requests, and tracking data.
+
+Q: Which backend framework is used?
+A: Flask, a Python-based lightweight web framework.
+
+Q: What front-end technologies are used?
+A: HTML, CSS, and JavaScript for a smooth and interactive user interface.
+
+Q: How is location matching implemented?
+A: Through integration with Google Maps API to enable location-based donor-recipient pairing.
+
+Q: Is the system scalable?
+A: It is designed for scalability, though challenges like data integration and user engagement remain.
+
+Q: What are the main challenges faced by Food Connect?
+A: Volunteer coordination, food safety management, sustaining user engagement, and scalability issues.
+
+Q: How is food safety assured?
+A: Donors specify safe consumption time; alerts trigger timely pickups to minimize spoilage.
+
+Q: Are there privacy concerns?
+A: The system uses secured authentication, but data privacy policies must be adhered to ensure trust.
+
+Q: How does Food Connect handle misuse prevention?
+A: Through secure user authentication and transaction validation mechanisms.
+
+Q: How does the platform ensure timely redistribution?
+A: Real-time notifications and expiration alerts support prompt action.
+
+Q: How does Food Connect differ from other food donation apps?
+A: Its distinctive Google Maps integration and dual dashboard design for NGOs and restaurants provide seamless interaction and tracking.
+
+Q: Are AI or advanced algorithms used?
+A: Currently no AI, but literature review suggests potential future integration of AI for better food matching and household food management.
+
+Q: Is volunteer involvement integrated?
+A: While direct volunteer features are not core to Food Connect, referenced studies highlight their importance for future work.
+
+Q: How does the system compare in terms of usability?
+A: Designed for simplicity and user-friendliness, with continuous feedback loops improving usability.
+
+Q: Does Food Connect align with UN Sustainable Development Goals?
+A: Yes, particularly goals related to zero hunger, responsible consumption, and sustainable cities.
+
+Q: Is Food Connect available as a mobile app?
+A: Currently a web prototype; plans exist to develop an Android app for better accessibility.
+
+Q: What improvements are planned?
+A: UI/UX enhancements, mobile application launch, and incorporation of user feedback.
+
+Q: Can individual users donate food?
+A: Presently focused on restaurants and NGOs, but future versions may enable individuals to participate.
+
+Q: How does the platform track donation history?
+A: Through comprehensive MySQL database records accessible via user dashboards.
+
+Q: Is Google Authentication mandatory?
+A: It is implemented for secure access and ease of login.
+
+Q: How can NGOs register on Food Connect?
+A: By signing up on the platform and completing authentication steps.
+
+Q: How are emergencies or urgent food needs handled?
+A: Through instant request generation and notifications enabling swift response.
+
+Q: Can multiple NGOs request the same food item?
+A: System manages requests in real-time and allows allocation based on availability and priority.
+
+Q: Are there reports or analytics available?
+A: Currently not specified, but such features are beneficial for future improvements.
+
+Q: What support is available for new users?
+A: Provisions for guidance on using dashboards and posting/requesting food are part of the design.
+
+Q: How is success measured for Food Connect?
+A: Reduction in food wastage, increased food donations, user engagement metrics, and positive social impact.
+
+Q: Does the system track environmental benefits?
+A: By decreasing wasted food, it indirectly reduces carbon footprint and resource depletion.
+
+Q: How do restaurants benefit besides social responsibility?
+A: Tracking food surplus helps optimize operations and reduces waste disposal costs.
+
+Q: What feedback mechanisms exist?
+A: User feedback during prototype phases aids continuous development.
+
+Q: Is Food Connect open source or customizable?
+A: The research paper does not specify, but open collaboration could foster scaling and enhancement.
+
+
 Q: How can I donate food?
 A: Sign up as a donor on FoodConnect and schedule a pickup.
 
