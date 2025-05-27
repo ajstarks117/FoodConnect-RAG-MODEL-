@@ -8,7 +8,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 app = Flask(__name__)
 
 # Load and prepare RAG components at startup
-documents = load_documents("data/food_knowledge.txt")
+documents = load_documents("./data/food_knowledge.txt")
 chunks = split_documents(documents)
 vectorstore = get_vectorstore(chunks)
 retriever = vectorstore.as_retriever()
