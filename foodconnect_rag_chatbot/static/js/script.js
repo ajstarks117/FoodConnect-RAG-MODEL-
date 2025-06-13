@@ -23,3 +23,5 @@ async function sendMessage() {
   chatBox.innerHTML += `<div class='bot-msg'>Bot: ${botText}</div>`;
   chatBox.scrollTop = chatBox.scrollHeight;
 }
+
+

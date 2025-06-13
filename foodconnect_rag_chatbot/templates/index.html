@@ -5,339 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="FoodConnect Chatbot - Connect with a supportive community to learn about food safety!">
   <title>FoodConnect Chatbot</title>
-  <style>
-    :root {
-      --primary-color: #ff6f61;
-      --secondary-color: #4a90e2;
-      --background-color: #f9f7f4;
-      --chat-bg: #ffffff;
-      --user-bubble: #e1f5fe;
-      --bot-bubble: #fff3e0;
-      --text-color: #333;
-      --accent-color: #f4b400;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background: var(--background-color) url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
-      background-size: cover;
-      color: var(--text-color);
-      line-height: 1.6;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    .chat-container {
-      max-width: 700px;
-      margin: auto;
-      background: var(--chat-bg);
-      border-radius: 15px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      flex: 1;
-    }
-
-    .chat-header {
-      text-align: center;
-      padding: 10px 0;
-      border-bottom: 1px solid #eee;
-    }
-
-    .chat-header h2 {
-      color: var(--primary-color);
-      font-size: 1.8rem;
-      margin-bottom: 5px;
-    }
-
-    .chat-header p {
-      color: #666;
-      font-size: 1rem;
-    }
-
-    #chat-box {
-      flex: 1;
-      max-height: 500px;
-      overflow-y: auto;
-      padding: 15px;
-      background: #fdfdfd;
-      border-radius: 10px;
-      border: 1px solid #eee;
-      scrollbar-width: thin;
-      scrollbar-color: var(--accent-color) #f1f1f1;
-    }
-
-    #chat-box::-webkit-scrollbar {
-      width: 8px;
-    }
-
-    #chat-box::-webkit-scrollbar-track {
-      background: #f1f1f1;
-    }
-
-    #chat-box::-webkit-scrollbar-thumb {
-      background: var(--accent-color);
-      border-radius: 4px;
-    }
-
-    .message {
-      margin: 10px 0;
-      padding: 10px 15px;
-      border-radius: 15px;
-      max-width: 80%;
-      word-wrap: break-word;
-      position: relative;
-      display: flex;
-      align-items: center;
-    }
-
-    .user-msg {
-      background: var(--user-bubble);
-      color: var(--text-color);
-      margin-left: auto;
-      border-bottom-right-radius: 5px;
-    }
-
-    .bot-msg {
-      background: var(--bot-bubble);
-      color: var(--text-color);
-      margin-right: auto;
-      border-bottom-left-radius: 5px;
-    }
-
-    .message::before {
-      content: '';
-      display: inline-block;
-      width: 30px;
-      height: 30px;
-      margin-right: 10px;
-      background-size: cover;
-    }
-
-    .user-msg::before {
-      background-image: url('https://img.icons8.com/color/48/000000/user.png');
-    }
-
-    .bot-msg::before {
-      background-image: url('https://img.icons8.com/color/48/000000/bot.png');
-    }
-
-    .typing-indicator {
-      display: none;
-      font-style: italic;
-      color: #666;
-      margin: 10px;
-    }
-
-    .typing-indicator span {
-      animation: blink 1s infinite;
-    }
-
-    .typing-indicator span:nth-child(2) {
-      animation-delay: 0.2s;
-    }
-
-    .typing-indicator span:nth-child(3) {
-      animation-delay: 0.4s;
-    }
-
-    @keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 0.3; }
-      100% { opacity: 1; }
-    }
-
-    .error-message {
-      color: #d32f2f;
-      background: #ffebee;
-      padding: 10px;
-      border-radius: 10px;
-      margin: 10px;
-      text-align: center;
-    }
-
-    .input-container {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    #user-input {
-      flex: 1;
-      padding: 12px;
-      font-size: 1rem;
-      border: 1px solid #ddd;
-      border-radius: 25px;
-      outline: none;
-      transition: border-color 0.3s;
-    }
-
-    #user-input:focus {
-      border-color: var(--primary-color);
-    }
-
-    button {
-      padding: 12px 20px;
-      font-size: 1rem;
-      background: var(--primary-color);
-      color: white;
-      border: none;
-      border-radius: 25px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-
-    button:hover {
-      background: #e55a4d;
-    }
-
-    button:focus {
-      outline: 2px solid var(--secondary-color);
-      outline-offset: 2px;
-    }
-
-    #reset-chat {
-      background: var(--secondary-color);
-    }
-
-    #reset-chat:hover {
-      background: #3a7bc8;
-    }
-
-    .call-to-action {
-      text-align: center;
-      margin-top: 10px;
-    }
-
-    .call-to-action a {
-      color: var(--accent-color);
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .call-to-action a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      .chat-container {
-        margin: 10px;
-        padding: 15px;
-      }
-
-      #chat-box {
-        max-height: 400px;
-      }
-
-      .input-container {
-        flex-direction: column;
-      }
-
-      button {
-        width: 100%;
-      }
-    }
-
-    /* Accessibility */
-    #user-input, button {
-      font-size: 1rem;
-    }
-
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      border: 0;
-    }
-  </style>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/chatbot.css')}}">
+  <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
 </head>
 <body>
-  <div class="chat-container" role="main">
-    <div class="chat-header">
-      <h2>FoodConnect Chatbot</h2>
-      <p>Share and learn about food safety with our community!</p>
+  
+  <!-- Chatbot Overlay -->
+  <div id="chatbot-overlay"></div>
+
+  <!-- Chatbot Button -->
+  <div id="chatbot-button">💬</div>
+
+  <!-- Chatbot Window -->
+  <div id="chatbot-window">
+    <div class="chatbot-header">
+      Ask Zoiee
+      <span id="close-chatbot">&times;</span>
     </div>
-    <div id="chat-box" role="log" aria-live="polite"></div>
-    <div class="typing-indicator" id="typing-indicator">
-      Bot is typing<span>.</span><span>.</span><span>.</span>
+    <div class="chatbot-body" id="chatbot-body">
+      <!-- Sample bot message -->
+      <div class="message-row bot">
+        <img src="{{ url_for('static', filename='img/chatbot2.jpeg') }}" class="avatar" />
+        <div class="message">Hi Manthan Agrawal, Nice to see you back. Is there something I can help you with?</div>
+      </div>
+      <!-- Sample user message -->
+      <div class="message-row user">
+        <div class="message">Yes</div>
+        <img src="https://i.imgur.com/ur7L99g.png" class="avatar" />
+      </div>
     </div>
-    <div class="input-container">
-      <label for="user-input" class="sr-only">Ask a food safety question</label>
-      <input
-        type="text"
-        id="user-input"
-        placeholder="Ask a food safety question..."
-        aria-describedby="input-instructions"
-        onkeypress="if(event.key === 'Enter') sendMessage()"
-      />
-      <button onclick="sendMessage()" aria-label="Send message">Send</button>
-      <button id="reset-chat" onclick="resetChat()" aria-label="Reset chat">Clear Chat</button>
-    </div>
-    <p id="input-instructions" class="sr-only">
-      Type your question about food safety and press Enter or the Send button to submit.
-    </p>
-    <div class="call-to-action">
-      <p>Join our community! <a href="https://foodconnect.community">Learn More</a></p>
+    <div class="chatbot-input">
+      <input id="user-input" type="text" placeholder="Type your message..." />
+      <button id="send-button">&#10148;</button>
     </div>
   </div>
 
   <script>
-    // Load conversation history from localStorage
-    function loadConversationHistory() {
-      const chatBox = document.getElementById("chat-box");
-      const history = JSON.parse(localStorage.getItem("chatHistory") || "[]");
-      chatBox.innerHTML = "";
-      history.forEach(({ type, text }) => {
-        chatBox.innerHTML += `<div class='${type}-msg'>${type === "user" ? "You" : "Bot"}: ${text}</div>`;
-      });
-      chatBox.scrollTop = chatBox.scrollHeight;
-    }
+    // --- Remove all chat-box logic and unify with chatbot-body logic ---
 
-    // Save message to localStorage
-    function saveMessage(type, text) {
-      const history = JSON.parse(localStorage.getItem("chatHistory") || "[]");
-      history.push({ type, text });
-      localStorage.setItem("chatHistory", JSON.stringify(history));
-    }
-
-    // Reset chat
-    function resetChat() {
-      localStorage.removeItem("chatHistory");
-      const chatBox = document.getElementById("chat-box");
-      chatBox.innerHTML = "";
-    }
-
-    async function sendMessage() {
-      const input = document.getElementById("user-input");
-      const chatBox = document.getElementById("chat-box");
-      const typingIndicator = document.getElementById("typing-indicator");
-
-      const userText = input.value.trim();
-      if (!userText) return;
-
+    // Send message to backend and display in chatbot-body
+    async function sendMessageToBackend(userText) {
       // Display user message
-      chatBox.innerHTML += `<div class='user-msg'>You: ${userText}</div>`;
-      saveMessage("user", userText);
-      input.value = "";
-      chatBox.scrollTop = chatBox.scrollHeight;
+      document.getElementById("chatbot-body").innerHTML += `
+        <div class="message-row user">
+          <div class="message">${userText}</div>
+          <img src="https://i.imgur.com/ur7L99g.png" class="avatar" />
+        </div>
+      `;
+      document.getElementById("user-input").value = "";
+      document.getElementById("chatbot-body").scrollTop = document.getElementById("chatbot-body").scrollHeight;
 
       // Show typing indicator
-      typingIndicator.style.display = "block";
+      const typingId = "typing-indicator";
+      document.getElementById("chatbot-body").innerHTML += `
+        <div id="${typingId}" class="message-row bot">
+          <img src="{{ url_for('static', filename='img/chatbot2.jpeg') }}" class="avatar" />
+          <div class="message">Zoiee is typing...</div>
+        </div>
+      `;
+      document.getElementById("chatbot-body").scrollTop = document.getElementById("chatbot-body").scrollHeight;
 
       try {
         // Send to backend
@@ -355,20 +81,67 @@
         const botText = data.answer || "Sorry, something went wrong.";
 
         // Hide typing indicator and display bot reply
-        typingIndicator.style.display = "none";
-        chatBox.innerHTML += `<div class='bot-msg'>Bot: ${botText}</div>`;
-        saveMessage("bot", botText);
+        document.getElementById(typingId).remove();
+        document.getElementById("chatbot-body").innerHTML += `
+          <div class="message-row bot">
+            <img src="{{ url_for('static', filename='img/chatbot2.jpeg') }}" class="avatar" />
+            <div class="message">${botText}</div>
+          </div>
+        `;
       } catch (error) {
-        // Hide typing indicator and show error
-        typingIndicator.style.display = "none";
-        chatBox.innerHTML += `<div class='error-message'>Error: ${error.message}</div>`;
+        document.getElementById(typingId).remove();
+        document.getElementById("chatbot-body").innerHTML += `
+          <div class="message-row bot">
+            <img src="{{ url_for('static', filename='img/chatbot2.jpeg') }}" class="avatar" />
+            <div class="message error-message">Error: ${error.message}</div>
+          </div>
+        `;
       }
-
-      chatBox.scrollTop = chatBox.scrollHeight;
+      document.getElementById("chatbot-body").scrollTop = document.getElementById("chatbot-body").scrollHeight;
     }
 
-    // Load history on page load
-    document.addEventListener("DOMContentLoaded", loadConversationHistory);
+    // Send button click in chatbot
+    document.getElementById("send-button").addEventListener("click", () => {
+      const input = document.getElementById("user-input");
+      const userText = input.value.trim();
+      if (!userText) return;
+      sendMessageToBackend(userText);
+    });
+
+    // Enter key sends message
+    document.getElementById("user-input").addEventListener("keypress", function(e) {
+      if (e.key === "Enter") {
+        const userText = this.value.trim();
+        if (!userText) return;
+        sendMessageToBackend(userText);
+      }
+    });
+
+    // Chatbot button click
+    document.getElementById("chatbot-button").addEventListener("click", () => {
+      document.getElementById("chatbot-overlay").style.display = "block";
+      document.getElementById("chatbot-window").style.display = "flex";
+      document.getElementById("user-input").focus();
+    });
+
+    // Close chatbot
+    document.getElementById("close-chatbot").addEventListener("click", () => {
+      document.getElementById("chatbot-overlay").style.display = "none";
+      document.getElementById("chatbot-window").style.display = "none";
+    });
+
+    // Close chatbot when clicking outside
+    window.addEventListener("click", (e) => {
+      const chatbotWindow = document.getElementById("chatbot-window");
+      const chatbotButton = document.getElementById("chatbot-button");
+      if (
+        !chatbotWindow.contains(e.target) &&
+        !chatbotButton.contains(e.target)
+      ) {
+        document.getElementById("chatbot-overlay").style.display = "none";
+        chatbotWindow.style.display = "none";
+      }
+    });
   </script>
 </body>
 </html>
